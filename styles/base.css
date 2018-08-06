@@ -1,0 +1,132 @@
+@import url("https://use.typekit.net/tup3fkk.css");
+
+body {
+	font-family: 'brandon-grotesque', sans-serif;
+	margin: 2.5% 10% 2.5% 5%;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+#top {
+	width: 100%;
+	height: 50%;
+}
+
+#logo {
+	margin: 0;
+	font-weight: bold;
+	/*font-size: 1.5rem;*/
+}
+
+#social {
+	margin-top: 0;
+	margin-bottom: 0;
+	/*font-size: 1.5rem;*/
+}
+
+#logo, #social {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#social, #social li {
+	float: right;
+}
+
+#social li {
+	margin-right: 25px;
+	line-height: 100%;
+	height: 100%;
+}
+
+#top {
+	font-weight: bold;
+}
+
+#top > a {
+	text-decoration: none;
+}
+
+#me {
+	margin-bottom: 5%;
+}
+
+#hero {
+	font-size: 4rem;
+	width: 100px;
+	margin-bottom: 0;
+}
+
+#me > h2 {
+	color: grey;
+}
+
+#content {
+	margin-right: 25%;
+}
+
+.section {
+	margin-top: 5%;
+}
+
+.section h2 {
+	margin-bottom: 2.5%;
+	text-decoration: underline;
+}
+
+.section li {
+	line-height: 100%;
+}
+
+/*MARK: Responsive Design*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2),
+
+  only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+
+  {
+	body {
+		margin: 5% 10% 2.5% 10%;
+		font-size: 2em;
+	}
+
+	#me {
+		margin-bottom: 10%;
+	}
+
+	#hero {
+		font-size: 8rem;
+	}
+
+	.section {
+		margin-top: 15%;
+	}
+
+	.section h2 {
+		margin-bottom: 10%;
+		text-decoration: underline;
+	}
+
+	.section h3, h4 {
+		margin: 1rem 0rem 2rem 0rem;
+	}
+
+	
+}
